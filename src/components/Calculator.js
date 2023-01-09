@@ -6,7 +6,7 @@ export default class Calculator extends Component {
     const {
       onclick, total, next, onchange,
     } = this.props;
-    
+
     return (
       <main className="calculator-section">
         <div className="left">

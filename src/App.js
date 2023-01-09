@@ -3,8 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
 import calculate from './logic/calculate';
-import Home from './components/Home';
-import Quote from './components/Quote';
 
 export default class App extends Component {
   constructor() {
@@ -28,7 +26,6 @@ export default class App extends Component {
         <div className="container">
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
             <Route
               path="/Calculator"
               element={
@@ -36,7 +33,13 @@ export default class App extends Component {
                 <Calculator onclick={this.handleClick} state={this.state} />
 }
             />
-            <Route path="/Quote" element={<Quote />} />
+            <Route
+              path="*"
+              element={
+                // eslint-disable-next-line react/jsx-wrap-multilines, react/jsx-first-prop-new-line
+                <Calculator onclick={this.handleClick} state={this.state} />
+}
+            />
           </Routes>
         </div>
       );
