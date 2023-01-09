@@ -1,10 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-console */
-/* eslint-disable max-len */
-/* eslint-disable linebreak-style */
-
-/* eslint-disable react/prop-types */
-/* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import './Calculator.css';
 
@@ -13,8 +6,7 @@ export default class Calculator extends Component {
     const {
       onclick, total, next, onchange,
     } = this.props;
-    // eslint-disable-next-line no-unused-vars
-    // const { total, next } = state;
+    
     return (
       <main className="calculator-section">
         <div className="left">
