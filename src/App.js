@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Calculator from './components/Calculator';
+import Navbar from './components/Navbar';
+import calculate from './logic/calculate';
+import Home from './components/Home';
+import Quote from './components/Quote';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      total: null,
+      next: 0,
+      operation: null,
+    };
+  }
+
+    handleClick = (event) => {
+      const data = event.target.value;
+      const state = calculate(this.state, data);
+      this.setState(state);
+      document.getElementById('numinput').value = state.next;
+    };
+
+    render() {
+      return (
+        <div className="container">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route
+              path="/Calculator"
+              element={
+                // eslint-disable-next-line react/jsx-wrap-multilines, react/jsx-first-prop-new-line
+                <Calculator onclick={this.handleClick} state={this.state} />
 }
-
-export default App;
+            />
+            <Route path="/Quote" element={<Quote />} />
+          </Routes>
+        </div>
+      );
+    }
+}
