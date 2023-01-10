@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/math-magic/static/css/main.cfd4243a.css",
+    "main.js": "/math-magic/static/js/main.490a9d39.js",
+    "index.html": "/math-magic/index.html",
+    "main.cfd4243a.css.map": "/math-magic/static/css/main.cfd4243a.css.map",
+    "main.490a9d39.js.map": "/math-magic/static/js/main.490a9d39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfd4243a.css",
+    "static/js/main.490a9d39.js"
+  ]
+}
