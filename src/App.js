@@ -27,7 +27,7 @@ export default class App extends Component {
           <Navbar />
           <Routes>
             <Route
-              path="/Calculator"
+              path="*"
               element={
                 // eslint-disable-next-line react/jsx-wrap-multilines, react/jsx-first-prop-new-line
                 <Calculator onclick={this.handleClick} state={this.state} />
