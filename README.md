@@ -158,8 +158,8 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
-- right click index.html and select open Live Server plugging in Visual Studio Code to run the App :smile:
-- npm, run start in the Vscode terminal :smile:
+- In Vs code , right click index.html and select open Live server to run the App :smile:
+- In Vscode or Atom type npm start in the terminal to run the App :smile:
 
 <!--
 Example command:
