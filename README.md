@@ -203,8 +203,8 @@ Example:
 
 👤 **Riyaz Ahmed**
 
-- GitHub: [@githubhandle](https://github.com/r-ahmed2022)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/riyaz-ahmed-4216a71a8/)
+- GitHub: [@r-ahmed2022](https://github.com/r-ahmed2022)
+- LinkedIn: [Linked](https://www.linkedin.com/in/riyaz-ahmed-4216a71a8/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
