@@ -204,7 +204,7 @@ Example:
 👤 **Riyaz Ahmed**
 
 - GitHub: [@r-ahmed2022](https://github.com/r-ahmed2022)
-- LinkedIn: [Linked](https://www.linkedin.com/in/riyaz-ahmed-4216a71a8/)
+- LinkedIn: [Linkedin](https://www.linkedin.com/in/riyaz-ahmed-4216a71a8/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
