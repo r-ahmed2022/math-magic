@@ -24,7 +24,6 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -59,9 +58,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Math Magician] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Math magician]** Math magicians"  is a Single Page App (SPA) that allows users to Make simple calculations, Read a random math-related quote built with ReactJS and CSS
+A Single Page App (SPA) that allows users to Make simple calculations, Read a random math-related quote built with ReactJS and CSS
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -76,19 +73,6 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -119,9 +103,15 @@ After you're finished please remove all the comments and instructions!
 > Describe how a new developer could make use of your project.
 
 ### Prerequisites
+- Installation of Git
+- [NodeJS](https://nodejs.org/en/docs/)
+- Installation of NPM
+- A working browser
+- Internet connection
+-[Text Editor(VScode Recommended)](https://code.visualstudio.com/)
+- Installation of Live Server plugging in Visual Studio Code
 
-In order to run this project you need:
-[]( https://github.com/r-ahmed2022/math-magic.git)
+
 
 <!--
 Example command:
@@ -132,9 +122,15 @@ Example command:
  -->
 
 ### Setup
+In order to run this project you need:
+1. Clone this repository by following the link below
+[]( https://github.com/r-ahmed2022/math-magic.git)
 
-Clone this repository to your desired folder:
+2. Clone this repository to your desired folder:
 you@your-Pc-name:~$ cd <folder>
+
+3. Open the folder "Math-magician and run `npm install` to install all necesary scripts,
+4. Run from your termminal, `npm start` to open the project in your browser.
 
 <!--
 Example commands:
@@ -148,7 +144,7 @@ Example commands:
 ### Install
 
 Install this project with:
-- Node js
+- setup linters
 
 <!--
 Example command:
@@ -162,6 +158,8 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
+- In Vs code , right click index.html and select open Live server to run the App :smile:
+- In Vscode or Atom type npm start in the terminal to run the App :smile:
 
 <!--
 Example command:
@@ -174,6 +172,7 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
+> npm test :smile:
 
 <!--
 Example command:
@@ -187,7 +186,7 @@ Example command:
 
 You can deploy this project using:
 
-npm run deploy
+> npm run build :smile:
 <!--
 Example:
 
@@ -206,8 +205,8 @@ Example:
 
 👤 **Riyaz Ahmed**
 
-- GitHub: [@githubhandle](https://github.com/r-ahmed2022)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/riyaz-ahmed-4216a71a8/)
+- GitHub: [@r-ahmed2022](https://github.com/r-ahmed2022)
+- LinkedIn: [Linkedin](https://www.linkedin.com/in/riyaz-ahmed-4216a71a8/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -273,7 +272,7 @@ Microverse
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./License.txt) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
