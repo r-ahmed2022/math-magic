@@ -26,7 +26,7 @@ After you're finished please remove all the comments and instructions!
 
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+<h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -93,6 +93,8 @@ A Single Page App (SPA) that allows users to Make simple calculations, Read a ra
 > Add a link to your deployed project.
 
 - [Live Demo Link](https://r-ahmed2022.github.io/math-magic/)
+
+=======
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
