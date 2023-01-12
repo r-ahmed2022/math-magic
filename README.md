@@ -74,19 +74,6 @@ A Single Page App (SPA) that allows users to Make simple calculations, Read a ra
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -117,9 +104,15 @@ A Single Page App (SPA) that allows users to Make simple calculations, Read a ra
 > Describe how a new developer could make use of your project.
 
 ### Prerequisites
+- Installation of Git
+- [NodeJS](https://nodejs.org/en/docs/)
+- Installation of NPM
+- A working browser
+- Internet connection
+-[Text Editor(VScode Recommended)](https://code.visualstudio.com/)
+- Installation of Live Server plugging in Visual Studio Code
 
-In order to run this project you need:
-[]( https://github.com/r-ahmed2022/math-magic.git)
+
 
 <!--
 Example command:
@@ -130,9 +123,15 @@ Example command:
  -->
 
 ### Setup
+In order to run this project you need:
+1. Clone this repository by following the link below
+[]( https://github.com/r-ahmed2022/math-magic.git)
 
-Clone this repository to your desired folder:
+2. Clone this repository to your desired folder:
 you@your-Pc-name:~$ cd <folder>
+
+3. Open the folder "Math-magician and run `npm install` to install all necesary scripts,
+4. Run from your termminal, `npm start` to open the project in your browser.
 
 <!--
 Example commands:
@@ -146,7 +145,7 @@ Example commands:
 ### Install
 
 Install this project with:
-- Node js
+- setup linters
 
 <!--
 Example command:
@@ -172,6 +171,7 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
+> npm test :smile:
 
 <!--
 Example command:
@@ -185,7 +185,7 @@ Example command:
 
 You can deploy this project using:
 
-npm run deploy
+> npm run build :smile:
 <!--
 Example:
 
