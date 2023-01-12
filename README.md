@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Math Magician] <a name="about-project"></a>
 
-**[Math magician]** is a Single Page App (SPA) that allows users to Make simple calculations, Read a random math-related quote built with ReactJS and CSS
+A Single Page App (SPA) that allows users to Make simple calculations, Read a random math-related quote built with ReactJS and CSS
 
 ## 🛠 Built With <a name="built-with"></a>
 
