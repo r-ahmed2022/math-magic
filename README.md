@@ -1,90 +1,280 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Math Magician
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations, Read a random math-related quote built with ReactJS and css.
+Modify this file to match your project and remove sections that don't apply.
 
-## Built With
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-- JSX, ReactJS
-- scss
-- Git Workflow, Git, GitHub
+After you're finished please remove all the comments and instructions!
+-->
 
-## Live Demo
+<div align="center">
 
-[https://r-ahmed2022.github.io/math-magic/]().\*\*
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-Coming soon :smile:
+  <h3><b>Microverse README Template</b></h3>
 
-## Getting Started
+</div>
 
-### To have a copy of this project running on your local machine, follow these commands:
+<!-- TABLE OF CONTENTS -->
 
-- Clone this repo to your local machine
-  - `https://github.com/r-ahmed2022/math-magic`
-  - Open the folder "Math-magician and run `npm install` to install all necesary scripts,
-  - Run from your termminal, `npm start` to open the project in your browser.
+# 📗 Table of Contents
 
-**This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).**
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-To get a local copy up and running follow these simple example steps.
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Math Magician] <a name="about-project"></a>
+
+> Describe your project in 1 or 2 sentences.
+
+**[Math magician]** Math magicians"  is a Single Page App (SPA) that allows users to Make simple calculations, Read a random math-related quote built with ReactJS and CSS
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[Single Page application]**
+- **[Lightweight]**
+- **[React component]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://r-ahmed2022.github.io/math-magic/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
 
 ### Prerequisites
 
-- [NodeJS](https://nodejs.org/en/docs/)
+In order to run this project you need:
+[]( https://github.com/r-ahmed2022/math-magic.git)
 
-> As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.
+<!--
+Example command:
 
-- [Text Editor(VScode Recommended)](https://code.visualstudio.com/)
-
-> Visual Studio Code is a free coding editor that helps you start coding quickly. Use it to code in any programming language, without switching editors.
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
-**Run from your terminal:**
+Clone this repository to your desired folder:
+you@your-Pc-name:~$ cd <folder>
 
-- `npx create-react-app math-magician`
+<!--
+Example commands:
 
-**cd into math-magician folder, then run from your terminal:**
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
 
-- `npm start`
+### Install
+
+Install this project with:
+- Node js
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
 
 ### Usage
 
-\*\*When the above commands aresuccessfully run, your browser should open on `localhost:3000`, if not, open your browser and load `127.0.0.1:3000` to see your default template loaded
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
 
 ### Run tests
 
-> npm test :smile:
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
 
 ### Deployment
 
-> npm run build :smile:
+You can deploy this project using:
 
-## Author
+npm run deploy
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
 
 👤 **Riyaz Ahmed**
 
-GitHub: [@r-ahmed2022 ](https://github.com/r-ahmed2022)
-LinkedIn: [riyaz-ahmed ](https://www.linkedin.com/in/riyaz-ahmed-4216a71a8/)
-Twitter: [https://twitter.com ](https://twitter.com)
+- GitHub: [@githubhandle](https://github.com/r-ahmed2022)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/riyaz-ahmed-4216a71a8/)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Home component]**
+- [ ] **[working calculator]**
+- [ ] **[Quotes component]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+> Write a message to encourage readers to support your project
 
-## 📝 License
+If you like this project...
 
-This project is [MIT](./MIT.md) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+Microverse
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
