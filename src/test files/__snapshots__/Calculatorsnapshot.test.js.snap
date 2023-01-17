@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator renders correctly 1`] = `
+<main
+  className="calculator-section"
+>
+  <div
+    className="left"
+  >
+    <p>
+      Let's do some math....!
+    </p>
+  </div>
+  <div
+    className="cal-component"
+  >
+    <div
+      className="txt-div"
+    >
+      <input
+        className="numinput"
+        id="numinput"
+        maxLength="20"
+        name="numinput"
+        type="text"
+      />
+    </div>
+    <div
+      className="btn-div"
+    >
+      <input
+        className="btn"
+        type="button"
+        value="AC"
+      />
+      <input
+        className="btn"
+        type="button"
+        value="+/-"
+      />
+      <input
+        className="btn"
+        type="button"
+        value="%"
+      />
+      <input
+        className="btn symbol"
+        type="button"
+        value="÷"
+      />
+    </div>
+    <div
+      className="btn-div"
+    >
+      <input
+        className="btn"
+        type="button"
+        value="7"
+      />
+      <input
+        className="btn"
+        type="button"
+        value="8"
+      />
+      <input
+        className="btn"
+        type="button"
+        value="9"
+      />
+      <input
+        className="btn symbol"
+        type="button"
+        value="x"
+      />
+    </div>
+    <div
+      className="btn-div"
+    >
+      <input
+        className="btn"
+        type="button"
+        value="4"
+      />
+      <input
+        className="btn"
+        type="button"
+        value="5"
+      />
+      <input
+        className="btn"
+        type="button"
+        value="6"
+      />
+      <input
+        className="btn symbol"
+        type="button"
+        value="-"
+      />
+    </div>
+    <div
+      className="btn-div"
+    >
+      <input
+        className="btn"
+        type="button"
+        value="1"
+      />
+      <input
+        className="btn"
+        type="button"
+        value="2"
+      />
+      <input
+        className="btn"
+        type="button"
+        value="3"
+      />
+      <input
+        className="btn symbol"
+        type="button"
+        value="+"
+      />
+    </div>
+    <div
+      className="btn-div-last"
+    >
+      <div
+        className="div-0"
+      >
+        <input
+          className="btn"
+          type="button"
+          value="0"
+        />
+      </div>
+      <div
+        className="div-last"
+      >
+        <input
+          className="btn btn-last"
+          type="button"
+          value="."
+        />
+        <input
+          className="btn symbol btn-equal"
+          type="button"
+          value="="
+        />
+      </div>
+    </div>
+  </div>
+</main>
+`;
