@@ -28,7 +28,7 @@ export default class App extends Component {
         <div className="container">
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route
               path="/Calculator"
               element={
