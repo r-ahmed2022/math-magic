@@ -78,6 +78,19 @@ code {
 }
 
 @media (max-width: 500px) {
+
+  .calculator-section {
+    width: 90%;;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left { 
+    width: 90%;
+    height: auto;
+  }
+
   .header-title {
     font-size: 1.2rem;
   }

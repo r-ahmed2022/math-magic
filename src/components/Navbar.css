@@ -31,3 +31,26 @@
   margin-left: 20px;
   font-size: 2rem;
 }
+
+@media (max-width: 500px) {
+  .navbar {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+  }
+
+  .navbar h1 {
+    margin: .2em 0;
+  }
+
+  .navbar ul li {
+    border: 0;
+  }
+}

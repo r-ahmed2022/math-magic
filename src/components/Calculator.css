@@ -101,3 +101,15 @@ input[type="text"] {
 .btn-equal {
   grid-column: 4 / -1;
 }
+
+@media (max-width: 500px) {
+  .cal-component {
+    height: auto;
+    width:  90%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     padding: 0;
+     margin: 0 auto;
+  }
+}
