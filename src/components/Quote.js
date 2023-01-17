@@ -5,7 +5,7 @@ export default function Quote() {
     <div className="quote-div">
       <p className="quote-para">
         Mathematics is not about numbers, equations, computations,
-        or algorithms: it is about understanding. –William Paul Thurrston
+        or algorithms: it is about understanding. –William Thurrston
       </p>
     </div>
   );
