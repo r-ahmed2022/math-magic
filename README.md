@@ -93,6 +93,7 @@ A Single Page App (SPA) that allows users to Make simple calculations, Read a ra
 > Add a link to your deployed project.
 
 - [Live Demo Link](https://r-ahmed2022.github.io/math-magic/)
+- [Live](https://math-magic-bspk.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
